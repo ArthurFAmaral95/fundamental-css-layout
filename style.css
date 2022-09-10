@@ -62,3 +62,15 @@ nav a {
   float: left;
   margin-right: 2%;
 }
+
+.grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.grid .photos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+}
