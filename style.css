@@ -74,3 +74,24 @@ nav a {
   grid-template-columns: 1fr 1fr;
   gap: 1px;
 }
+
+@media (max-width:628px){
+  .logo{
+    font-size: 175%;
+    padding-block: 1rem;
+  }
+
+ nav a {
+  font-size: 0.7rem;
+ }
+
+ nav{ 
+  width: 100%;
+ }
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+}
